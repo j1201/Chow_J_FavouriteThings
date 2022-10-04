@@ -1,0 +1,23 @@
+{
+    "Better Call Saul": {
+        "name":"Better Call Saul",
+        "creator":"Vince Gilligan & Peter Gould",
+        "cast": "Bob Odenkirk, Jonathan Banks, Rhea Seehorn, Patrick Fabian, Michael Mando, Michael McKean, Giancarlo Esposito, Tony Dalton",
+        "desc":"BCS is the top of my favourite TV series. Its plot, cinematography, sound design, editing, acting...everything is the best on television. It's just a masterpiece!",
+        "pic":"bcs.jpg"
+    },
+    "Community": {
+        "name":"Community",
+        "creator":"Dan Harmon",
+        "cast": "Joel McHale, Gillian Jacobs, Danny Pudi, Yvette Nicole Brown, Alison Brie, Donald Glover, Ken Jeong, Chevy Chase, Jim Rash",
+        "desc":"The crazy plot, interesting cultural references, and unique humor are the reasons that I enjoyed the show a lot. I am keeping in mind a saying in the show 'six seasons and a movie', and I hope to see it this year!",
+        "pic":"community.jpg"
+    },
+    "Bojack Horseman": {
+        "name":"Bojack Horseman",
+        "creator":"Raphael Bob-Waksberg",
+        "cast": "Will Arnett, Amy Sedaris, Alison Brie, Paul F. Tompkins, Aaron Paul",
+        "desc":"When I first start Bojack, I felt the jokes were terrible and pace was weird. But soon, the feeling changed. I started to connect with the characters in the show, and it just makes me laugh through tears. It also makes a brillant series finale, which is very rare in many shows.",
+        "pic":"bojack.jpg"
+    }
+  }

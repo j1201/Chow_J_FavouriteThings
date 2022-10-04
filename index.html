@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>My Favourite Things</title>
+</head>
+<body>
+    <main>
+        <section id="header">
+            <h1>Joanna's Favourite TV Show</h1>
+            <p>Learn more about my favourite TV shows by clicking the image!</p>
+        </section>
+        <section class="fav-section">
+            <!-- dynamic content gets injected here-->
+        </section>
+    </main>
+
+    <!-- template goes here -->
+    <template id="fav-template">
+        <section>
+            <div> <!-- 0 -->
+                <img src="" alt="shows image">
+            </div>
+            <h1 class="show-name"> </h1> <!-- 1 -->
+            <p class="show-desc"> </p> <!-- 2 -->
+        </section>
+    </template>
+
+    <script src="js/main.js" defer type="module"> </script>
+</body>
+</html>
