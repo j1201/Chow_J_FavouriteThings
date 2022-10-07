@@ -1,14 +1,16 @@
 main {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: start;
     max-width: 100%;
-    gap: 30px;
-    padding:0 4vw;
+    gap: 4em;
+    flex-wrap: wrap;
 }
 
 #header {
-    text-align: center;
+    font-size: 2.5em;
+    line-height: $line-height;
+    
 }
 
 .fav-section {
@@ -16,5 +18,41 @@ main {
     flex-direction: row;
     align-content: center;
     max-width: 300px;
+    gap: 4em;
+    justify-content: flex-start;
+    line-height: $line-height;
+
+    .thing-name {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+    img, .thing-desc, .thing-link {
+        margin: $marginTop;
+    }
+
 }
 
+span {
+    color: white;
+    -webkit-text-stroke: $span-stroke;
+
+    cursor: pointer;
+
+}
+
+#highlight {
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    background-color: #88adf7f7;
+    height: 50px; 
+    width: 0%;
+    transition: width 0.5s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+  
+#things:hover #highlight{
+    /* hardcoded */
+    width: 160px;
+}

@@ -1,23 +1,26 @@
 {
-    "bcs": {
-        "name":"Better Call Saul",
-        "creator":"Vince Gilligan & Peter Gould",
-        "cast": "Bob Odenkirk, Jonathan Banks, Rhea Seehorn, Patrick Fabian, Michael Mando, Michael McKean, Giancarlo Esposito, Tony Dalton",
-        "desc":"BCS is the top of my favourite TV series. Its plot, cinematography, sound design, editing, acting...everything is the best on television. It's just a masterpiece!",
-        "pic":"bcs.jpg"
+    "design": {
+        "id": "0",
+        "name":"Design different products",
+        "desc":"I am interested in UX/UI design. Being able to make a product more user-friendly and appealing is a very satidifying thing to me!",
+        "linkText": "Visit my website",
+        "link": "https://www.joanna-chow.com/",
+        "pic":"design.jpg"
     },
-    "community": {
-        "name":"Community",
-        "creator":"Dan Harmon",
-        "cast": "Joel McHale, Gillian Jacobs, Danny Pudi, Yvette Nicole Brown, Alison Brie, Donald Glover, Ken Jeong, Chevy Chase, Jim Rash",
-        "desc":"The crazy plot, interesting cultural references, and unique humor are the reasons that I enjoyed the show a lot. I am keeping in mind a saying in the show 'six seasons and a movie', and I hope to see it this year!",
-        "pic":"community.jpg"
+    "movie": {
+        "id": "1",
+        "name":"Watch movies and tv dramas",
+        "desc":"Movies and tv shows have always been a great creative inspiration to me. It is always difficult for me to pick one favourite movie/tv show, but just to name a few - Eternal Sunshine of the spotless mind, Before Sunrise, Trainspotting, Pulp Fiction, Better Call Saul, Bojack Horseman...",
+        "linkText": "Visit my letterboxd",
+        "link": "https://letterboxd.com/heiyanchow/",
+        "pic":"movie.jpg"
     },
-    "bojack": {
-        "name":"Bojack Horseman",
-        "creator":"Raphael Bob-Waksberg",
-        "cast": "Will Arnett, Amy Sedaris, Alison Brie, Paul F. Tompkins, Aaron Paul",
-        "desc":"When I first start Bojack, I felt the jokes were terrible and pace was weird. But soon, the feeling changed. I started to connect with the characters in the show, and it just makes me laugh through tears. It also makes a brillant series finale, which is very rare in many shows.",
-        "pic":"bojack.jpg"
+    "music": {
+        "id": "2",
+        "name":"Listen to indie music",
+        "desc":"I like different genres of music, like post-rock, indie pop, math-rock...Same as movie, it is no way I can pick one favourite only. My favourite bands includes slowdive, MEW, yuck, the drums, explosions in the sky, sunset rollercoster, deca join...",
+        "linkText": "Visit my spotify",
+        "link": "https://open.spotify.com/user/chowheiyan?si=dd3de27894d24760",
+        "pic":"music.jpg"
     }
   }

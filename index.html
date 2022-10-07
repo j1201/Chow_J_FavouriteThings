@@ -8,29 +8,42 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&family=Prompt&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/main.css">
-    <title>My Favourite TV Shows</title>
+    <title>My favourite Things</title>
 </head>
 <body>
     <main>
         <section id="header">
-            <h1>Joanna's Favourite TV Show</h1>
-            <p>Learn more about my favourite TV shows by clicking the image!</p>
+            <h1>Hi, I am Joanna. <br>I like to </h1>
+                <div id="things" data-offset="0">
+                    <div id="highlight"></div>
+                    <span>design...</span>
+                </div>
+                <div id="things" data-offset="1">
+                    <div id="highlight"></div>
+                    <span>watch...</span>
+                </div>
+                <div id="things" data-offset="2">
+                    <div id="highlight"></div>
+                    <span>listen...</span>
+                </div>
         </section>
         <section class="fav-section">
             <!-- dynamic content gets injected here-->
         </section>
+
     </main>
 
     <!-- template goes here -->
     <template id="fav-template">
         <section>
-            <div> <!-- 0 -->
-                <img src="" alt="shows image">
+            <h1 class="thing-name"> </h1> <!-- 0 -->
+            <div> <!-- 1 -->
+                <img src="" alt="things image">
             </div>
-            <h1 class="show-name"> </h1> <!-- 1 -->
-            <p class="show-creator"> </p> <!-- 2 -->
-            <p class="show-cast"> </p> <!-- 3 -->
-            <p class="show-desc"> </p> <!-- 4 -->
+            <p class="thing-desc"> </p> <!-- 2 -->
+            <div class="thing-link"> <!-- 3 -->
+                <a href=""> </a> 
+            </div>
         </section>
     </template>
 
