@@ -5,21 +5,10 @@ import {getData} from "./modules/dataMiner.js";
         theThing = document.querySelector(".fav-section"),
         btnContainer = document.querySelector("#things");
 
-    const textBtn = document.querySelectorAll("#things");
-
-        function retrieveContent() {
-            // get dataset number
-            console.log(this.dataset.offset);
-
-
-        }
-
-    textBtn.forEach(textBtn => textBtn.addEventListener("click", retrieveContent));
-
-
-
     function retrieveThing (things) {
         getData("./data.json", changeCopy);
+
+        
     }
 
     btnContainer.addEventListener("click", retrieveThing);
@@ -27,7 +16,20 @@ import {getData} from "./modules/dataMiner.js";
     function changeCopy(things) {
         let theThings = Object.keys(things);
 
+        
+
         theThings.forEach(thing => {
+
+            function findId(theThings, idToLookFor) {
+                var dataArray = theThings[thing];
+                for (var i = 0; i < dataArray.length; i++) {
+                    if (dataArray[i].id == idToLookFor) {
+                        return(dataArray[i].name);
+                    }
+                }
+            }
+
+            findId (theThings, 1)
 
         let panel = theTemplate.cloneNode(true),
             containers = panel.firstElementChild.children;
