@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&family=Prompt&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/main.css">
+    <title>My favourite Things</title>
+</head>
+<body>
+    <main>
+        <section id="header">
+            <h1>Hi, I am Joanna. <br>I like to </h1>
+                <div class="things" id="design">
+                    <div id="highlight"></div>
+                    <span>design...</span>
+                </div>
+                <div class="things" id="movie">
+                    <div id="highlight"></div>
+                    <span>watch...</span>
+                </div>
+                <div class="things"" id="music">
+                    <div id="highlight"></div>
+                    <span>listen...</span>
+                </div>
+        </section>
+        <section class="fav-section">
+            <!-- dynamic content gets injected here-->
+        </section>
+
+    </main>
+
+    <!-- template goes here -->
+    <template id="fav-template">
+        <section>
+            <h1 class="thing-name"> </h1> <!-- 0 -->
+            <div> <!-- 1 -->
+                <img src="" alt="things image">
+            </div>
+            <p class="thing-desc"> </p> <!-- 2 -->
+            <div class="thing-link"> <!-- 3 -->
+                <a href=""> </a> 
+            </div>
+        </section>
+    </template>
+
+    <script src="js/main.js" defer type="module"> </script>
+</body>
+</html>
