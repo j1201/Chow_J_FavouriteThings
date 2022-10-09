@@ -2,21 +2,21 @@
     "design": {
         "name":"Design different products",
         "desc":"I am interested in UX/UI design. Being able to make a product more user-friendly and appealing is a very satidifying thing to me!",
-        "linkText": "Visit my website",
+        "linkText": "My Portfolio",
         "link": "https://www.joanna-chow.com/",
         "pic":"design.jpg"
     },
     "movie": {
         "name":"Watch movies and tv dramas",
         "desc":"Movies and tv shows have always been a great creative inspiration to me. It is always difficult for me to pick one favourite movie/tv show, but just to name a few - Eternal Sunshine of the spotless mind, Before Sunrise, Trainspotting, Pulp Fiction, Better Call Saul, Bojack Horseman...",
-        "linkText": "Visit my letterboxd",
+        "linkText": "My Letterboxd",
         "link": "https://letterboxd.com/heiyanchow/",
         "pic":"movie.jpg"
     },
     "music": {
         "name":"Listen to indie music",
         "desc":"I like different genres of music, like post-rock, indie pop, math-rock...Same as movie, it is no way I can pick one favourite only. My favourite bands includes slowdive, MEW, yuck, the drums, explosions in the sky, sunset rollercoster, deca join...",
-        "linkText": "Visit my spotify",
+        "linkText": "My Spotify",
         "link": "https://open.spotify.com/user/chowheiyan?si=dd3de27894d24760",
         "pic":"music.jpg"
     }

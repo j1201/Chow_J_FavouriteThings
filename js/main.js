@@ -6,7 +6,7 @@ import {getData} from "./modules/dataMiner.js";
         btnContainer = document.querySelectorAll(".things"), // list of three items
         buttonClicked; // get target button
 
-    btnContainer.forEach(addEventListener("click", retrieveThing));// add click event to each button
+  
 
     // retrieve content from different item
     function retrieveThing (event) {
@@ -33,4 +33,5 @@ import {getData} from "./modules/dataMiner.js";
 
     }
     
+    btnContainer.forEach(addEventListener("click", retrieveThing));// add click event to each button
 })();

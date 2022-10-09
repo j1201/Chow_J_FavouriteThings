@@ -3,14 +3,47 @@ main {
     flex-direction: row;
     justify-content: start;
     max-width: 100%;
-    gap: 4em;
+    gap: 10em;
     flex-wrap: wrap;
 }
+
+.fade-in {
+    animation: fadeIn 1.5s;
+    -webkit-animation: fadeIn 1.5s;
+    -moz-animation: fadeIn 1.5s;
+    -o-animation: fadeIn 1.5s;
+    -ms-animation: fadeIn 1.5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
 
 #header {
     font-size: 2.5em;
     line-height: $line-height;
-    
 }
 
 .fav-section {
@@ -19,8 +52,8 @@ main {
     align-content: center;
     max-width: 500px;
     gap: 4em;
-    justify-content: flex-start;
     line-height: $line-height;
+
 
     .thing-name {
         font-size: 1.5em;
@@ -35,7 +68,6 @@ main {
 
 span {
     color: white;
-    -webkit-text-stroke: $span-stroke;
 
     cursor: pointer;
 
@@ -45,14 +77,27 @@ span {
     display: inline-block;
     position: absolute;
     z-index: -1;
-    background-color: #88adf7f7;
+    background-color: #757d8ef7;
     height: 50px; 
     width: 0%;
     transition: width 0.5s;
     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
   
-#things:hover #highlight{
+.things:hover #highlight{
     /* hardcoded */
-    width: 160px;
+    width: 220px;
+}
+
+.thing-link a {
+    text-decoration: none;
+    padding: 10px;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: white;
+        color: black;
+    }
 }
