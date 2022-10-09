@@ -1,6 +1,5 @@
 {
     "design": {
-        "id": "0",
         "name":"Design different products",
         "desc":"I am interested in UX/UI design. Being able to make a product more user-friendly and appealing is a very satidifying thing to me!",
         "linkText": "Visit my website",
@@ -8,7 +7,6 @@
         "pic":"design.jpg"
     },
     "movie": {
-        "id": "1",
         "name":"Watch movies and tv dramas",
         "desc":"Movies and tv shows have always been a great creative inspiration to me. It is always difficult for me to pick one favourite movie/tv show, but just to name a few - Eternal Sunshine of the spotless mind, Before Sunrise, Trainspotting, Pulp Fiction, Better Call Saul, Bojack Horseman...",
         "linkText": "Visit my letterboxd",
@@ -16,7 +14,6 @@
         "pic":"movie.jpg"
     },
     "music": {
-        "id": "2",
         "name":"Listen to indie music",
         "desc":"I like different genres of music, like post-rock, indie pop, math-rock...Same as movie, it is no way I can pick one favourite only. My favourite bands includes slowdive, MEW, yuck, the drums, explosions in the sky, sunset rollercoster, deca join...",
         "linkText": "Visit my spotify",

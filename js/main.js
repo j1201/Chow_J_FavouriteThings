@@ -3,49 +3,34 @@ import {getData} from "./modules/dataMiner.js";
 (() => {
     let theTemplate = document.querySelector("#fav-template").content,
         theThing = document.querySelector(".fav-section"),
-        btnContainer = document.querySelector("#things");
+        btnContainer = document.querySelectorAll(".things"), // list of three items
+        buttonClicked; // get target button
 
-    function retrieveThing (things) {
+    btnContainer.forEach(addEventListener("click", retrieveThing));// add click event to each button
+
+    // retrieve content from different item
+    function retrieveThing (event) {
         getData("./data.json", changeCopy);
-
         
+        // get target id name
+        console.log("target id:", event.target.parentElement.id); 
+        buttonClicked = event.target.parentElement.id;
     }
 
-    btnContainer.addEventListener("click", retrieveThing);
-
-    function changeCopy(things) {
-        let theThings = Object.keys(things);
-
-        
-
-        theThings.forEach(thing => {
-
-            function findId(theThings, idToLookFor) {
-                var dataArray = theThings[thing];
-                for (var i = 0; i < dataArray.length; i++) {
-                    if (dataArray[i].id == idToLookFor) {
-                        return(dataArray[i].name);
-                    }
-                }
-            }
-
-            findId (theThings, 1)
+    function changeCopy(items) {
 
         let panel = theTemplate.cloneNode(true),
-            containers = panel.firstElementChild.children;
-                
-            containers[0].textContent = things[thing].name;
-            containers[1].querySelector('img').src = `images/${things[thing].pic}`;    
-            containers[2].textContent = things[thing].desc;
-            containers[3].querySelector('a').textContent = things[thing].linkText;
-            containers[3].querySelector('a').href = things[thing].link;
+        containers = panel.firstElementChild.children;
+            
+        containers[0].textContent = items[buttonClicked].name;
+        containers[1].querySelector('img').src = `images/${items[buttonClicked].pic}`;    
+        containers[2].textContent = items[buttonClicked].desc;
+        containers[3].querySelector('a').textContent = items[buttonClicked].linkText;
+        containers[3].querySelector('a').href = items[buttonClicked].link;
 
-            theThing.appendChild(panel);
+        theThing.innerHTML = "";
+        theThing.appendChild(panel);
 
-        })
     }
-
-
-
     
 })();
