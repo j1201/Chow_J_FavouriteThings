@@ -5,8 +5,13 @@ import {getData} from "./modules/dataMiner.js";
         theThing = document.querySelector(".fav-section"),
         btnContainer = document.querySelectorAll(".things"), // list of three items
         buttonClicked; // get target button
+    
+    // add green sock library to create ease-in-out animation
+    const timeline = gsap.timeline({ default: { duration: 1}});
 
-  
+    timeline
+    .from('.title', { opacity: 0, y: "50%", ease: "power1.out" })
+    .from('.things', { opacity: 0, y: "50%", ease: "power1.out", stagger: .5 })
 
     // retrieve content from different item
     function retrieveThing (event) {
@@ -33,17 +38,12 @@ import {getData} from "./modules/dataMiner.js";
         theThing.innerHTML = "";
         theThing.appendChild(panel);
 
-       
+        gsap.from('.fade-in', { opacity: 0, x: "-50%", ease: "power1.out", stagger: .4 })
 
     }
 
-    function fadeIn() {
+   
 
-
-        debugger;
-
-
-    }
     
     btnContainer.forEach(addEventListener("click", retrieveThing));// add click event to each button
 })();

@@ -6,43 +6,10 @@ main {
     gap: 10em;
     flex-wrap: wrap;
 }
-
-// .fade-in {
-//     animation: fadeIn 1.5s;
-//     -webkit-animation: fadeIn 1.5s;
-//     -moz-animation: fadeIn 1.5s;
-//     -o-animation: fadeIn 1.5s;
-//     -ms-animation: fadeIn 1.5s;
-//   }
   
-//   @keyframes fadeIn {
-//     0% { opacity: 0; }
-//     100% { opacity: 1; }
-//   }
-  
-//   @-moz-keyframes fadeIn {
-//     0% { opacity: 0; }
-//     100% { opacity: 1; }
-//   }
-  
-//   @-webkit-keyframes fadeIn {
-//     0% { opacity: 0; }
-//     100% { opacity: 1; }
-//   }
-  
-//   @-o-keyframes fadeIn {
-//     0% { opacity: 0; }
-//     100% { opacity: 1; }
-//   }
-  
-//   @-ms-keyframes fadeIn {
-//     0% { opacity: 0; }
-//     100% { opacity: 1; }
-//   }
-  
-
 #header {
-    font-size: 2.5em;
+    font-size: 3em;
+    font-weight: bold;
     line-height: $line-height;
 }
 
@@ -68,17 +35,15 @@ main {
 
 span {
     color: white;
-
     cursor: pointer;
-
 }
 
 #highlight {
     display: inline-block;
     position: absolute;
     z-index: -1;
-    background-color: #757d8ef7;
-    height: 50px; 
+    background-color: #000000f7;
+    height: 60px; 
     width: 0%;
     transition: width 0.5s;
     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -86,7 +51,7 @@ span {
   
 .things:hover #highlight{
     /* hardcoded */
-    width: 220px;
+    width: 260px;
 }
 
 .thing-link a {
