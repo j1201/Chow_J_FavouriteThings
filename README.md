@@ -3,7 +3,7 @@
 ## About the Project
 This is an one-page web app that showcases three of my favorite things. There will be interactive buttons with relevant data pulling from a JSON file conducted on the page. To make the page more interesting, I also implemented animation with GSAP library. 
 
-Here is my [development plan] (https://docs.google.com/document/d/1YMQB8rZA7igDQwDwd_P2S7R676Z0GD-twND6h5vkJoM/edit?usp=sharing)
+Here is my [development plan].
 
 ## Contributing
 1. Fork it!
@@ -17,3 +17,5 @@ Joanna Chow
 
 ## License
 MIT
+
+[development plan]: https://docs.google.com/document/d/1YMQB8rZA7igDQwDwd_P2S7R676Z0GD-twND6h5vkJoM/edit?usp=sharing
