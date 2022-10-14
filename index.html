@@ -12,19 +12,20 @@
 </head>
 <body>
     <main>
-        <section id="header">
-            <h1>Hi, I am Joanna. <br>I like to </h1>
+        <section id="header" class="fade-in">
+            <h1>Hi, I am Joanna. <br>I like to... </h1>
+                <br>
                 <div class="things" id="design">
                     <div id="highlight"></div>
-                    <span>design...</span>
+                    <span>➔ design...</span>
                 </div>
                 <div class="things" id="movie">
                     <div id="highlight"></div>
-                    <span>watch...</span>
+                    <span>➔ watch...</span>
                 </div>
                 <div class="things"" id="music">
                     <div id="highlight"></div>
-                    <span>listen...</span>
+                    <span>➔ listen...</span>
                 </div>
         </section>
         <section class="fav-section">
@@ -35,7 +36,7 @@
 
     <!-- template goes here -->
     <template id="fav-template">
-        <section>
+        <section  class="fade-in">
             <h1 class="thing-name"> </h1> <!-- 0 -->
             <div> <!-- 1 -->
                 <img src="" alt="things image">
@@ -47,6 +48,9 @@
         </section>
     </template>
 
+    <!-- third party library goes here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script> 
+    <!-- main js file goes here -->
     <script src="js/main.js" defer type="module"> </script>
 </body>
 </html>
