@@ -34,7 +34,7 @@ main {
 }
 
 span {
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
@@ -42,7 +42,7 @@ span {
     display: inline-block;
     position: absolute;
     z-index: -1;
-    background-color: #000000f7;
+    background-color: #bababaf7;
     height: 60px; 
     width: 0%;
     transition: width 0.5s;
@@ -57,12 +57,12 @@ span {
 .thing-link a {
     text-decoration: none;
     padding: 10px;
-    background-color:rgb(0, 0, 0);
-    color: white;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border-radius: 5px;
 
     &:hover {
-        background-color: white;
-        color: black;
+        background-color: #bababaf7;
+        color: rgb(255, 255, 255);
     }
 }
